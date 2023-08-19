@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liberary Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav">
+            <div class="heading">
+                <h2 class="heading">Liberary Management</h2>
+            </div>
+            <div class="links">
+                <h5 class="links"><a href="#books_title">Books</a></h5>
+                <h5 class="links"></h><a href="#register_title">Register</a></h5>
+                <h5 class="links">Contact us</h5>
+            </div>
+        </div>
+    </nav>
+
+    <div class="table_container">
+        <h2 id="books_title">Books</h2>
+        <table class="table">
+            <thead class="thead">
+                <tr>
+                    <th>Book ID</th>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Genre</th>
+                    <th>Availability</th>
+                </tr>
+            </thead>
+            <tbody class="tbody">
+                <tr>
+                    <td>1</td>
+                    <td>
+                        Book Title 1
+                        <table>
+                            <tr><td>Publication Date: 2000</td></tr>
+                            <tr><td>Page Count: 250</td></tr>
+                            <tr><td>ISBN: 123-456789</td></tr>
+                        </table>
+                    </td>
+                    <td>Author name 1</td>
+                    <td>Genre 1</td>
+                    <td>Available</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>
+                        Book Title 1
+                        <table>
+                            <tr><td>Publication Date: 2000</td></tr>
+                            <tr><td>Page Count: 250</td></tr>
+                            <tr><td>ISBN: 123-456789</td></tr>
+                        </table>
+                    </td>
+                    <td>Author name 1</td>
+                    <td>Genre 1</td>
+                    <td>Available</td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>
+                        Book Title 1
+                        <table>
+                            <tr><td>Publication Date: 2000</td></tr>
+                            <tr><td>Page Count: 250</td></tr>
+                            <tr><td>ISBN: 123-456789</td></tr>
+                        </table>
+                    </td>
+                    <td>Author name 1</td>
+                    <td>Genre 1</td>
+                    <td>Available</td>
+                </tr>
+
+                <tr>
+                    <td>4</td>
+                    <td>
+                        Book Title 1
+                        <table>
+                            <tr><td>Publication Date: 2000</td></tr>
+                            <tr><td>Page Count: 250</td></tr>
+                            <tr><td>ISBN: 123-456789</td></tr>
+                        </table>
+                    </td>
+                    <td>Author name 1</td>
+                    <td>Genre 1</td>
+                    <td>Available</td>
+                </tr>
+
+                <tr>
+                    <td>5</td>
+                    <td>
+                        Book Title 1
+                        <table>
+                            <tr><td>Publication Date: 2000</td></tr>
+                            <tr><td>Page Count: 250</td></tr>
+                            <tr><td>ISBN: 123-456789</td></tr>
+                        </table>
+                    </td>
+                    <td>Author name 1</td>
+                    <td>Genre 1</td>
+                    <td>Available</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="form_container">
+        <h2 id="register_title">Register</h2>
+        <form action="post" class="form">
+            <label for="first_name">First Name:</label><br>
+            <input type="text" id="first_name" placeholder="First Name" required><br>
+            <label for="last_name">Last Name:</label><br>
+            <input type="text" id="last_name" placeholder="Last Name" required><br>
+            <label for="dob">Date of Birth:</label><br>
+            <input type="date" id="dob" required><br>
+            <label for="age">Age:</label><br>
+            <input type="number" max="100" min="18" id="age" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" placeholder="Email Id" required><br>
+            <label for="pass">Password:</label><br>
+            <input type="password" id="pass" required><br>
+            <label for="conf_pass">Confirm Password:</label><br>
+            <input type="password" id="conf_pass" required><br>
+            <input type="submit" id="register_btn" value="Register">
+        </form>
+    </div>
+    <br><br>
+</body>
+</html>
